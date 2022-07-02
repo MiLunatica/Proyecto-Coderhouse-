@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+ 
+    font-family:'Montserrat', sans-serif;
+    background: aquamarine;
+}
+
+
+.header{
+    color: black;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 50px;
+    display: flex;
+    
+   
+}
+
+
+.title{
+    text-align: start;
+    text-transform: uppercase;
+    color:black;
+    font-size: 50px;
+    
+}
+
+.header__nav ul{
+    padding: 2rem;
+    text-align: center;
+    list-style: none;
+    color:black;
+    text-decoration: none;
+    
+   
+}
+.header__nav li{
+    display: inline-block;
+    
+}
+.header__nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: aquamarine;
+    border-radius: 0px;
+    margin: 15px;
+    
+  }
+  
+  .img{
+    margin: 0rem;
+    border: solid 2px black;
+}
+
+
+ .footer{
+    text-align: center;
+ }
+ .parrafo{
+    text-align: center;
+ }
+
+ /*GALERIA*/
+.contenedor{
+    background-color: black;
+   
+}
+
+.nav__galeria  ul li a{
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    
+} 
+.nav__galeria ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.footer__galeria{
+    color: white;
+    text-align: center;
+    margin: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*ARTISTAS*/
+.contenedor__body{
+    background-color: black;
+}
+.nav__artistas ul li a{
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;
+ 
+}
+.nav__artistas ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+
+.footer__artistas{
+    color: white;
+    text-align: center;
+    margin: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+/*MUSICA*/
+.contenedor__musica{
+    background-image: url("../img/vinilorock.jpeg");
+}
+.nav__musica ul li a{
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav__musica ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.footer__musica{
+    color: white;
+    text-align: center;
+    margin: 400px;
+    display: flex;
+    justify-content: center;
+}
+/*SHOWS*/
+.contenedor__shows{
+    background-image: url("../img/redhotchili.jpeg");
+}
+.nav__shows ul li a{
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.nav__shows ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  
+}
+.footer__shows h1{
+    color: white;
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+/*FORMULARIO*/
+.formulario{
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    font-size: 17px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+.formulario__leg{
+margin: 15px;
+
+}
+#nombre{
+display: flex;
+justify-content: center;
+}
+.placeholder__nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#mail{
+display: flex;
+justify-content: center;
+}
+.placeholder__mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#text{
+  display: flex;
+  justify-content: center;
+}
+.placeholder__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.env__can{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
