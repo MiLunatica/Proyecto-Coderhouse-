@@ -8,6 +8,7 @@
  
     font-family:'Montserrat', sans-serif;
     background: aquamarine;
+   
 }
 
 
@@ -31,21 +32,23 @@
     color:black;
     font-size: 50px;
     
+    
+}
+.title:hover{
+   
+    border: solid 2px black;
 }
 
 .header__nav ul{
     padding: 2rem;
-    text-align: center;
+    text-align:end;
     list-style: none;
     color:black;
     text-decoration: none;
-    
+    display:flex;
    
 }
-.header__nav li{
-    display: inline-block;
-    
-}
+
 .header__nav a{
     text-decoration: none;
     text-transform: uppercase;
@@ -55,15 +58,25 @@
     margin: 15px;
     
   }
-  
+ 
+  .header__nav a:hover{
+    transform: skew(55deg, 5deg);
+    border: solid 2px black;
+  }
   .img{
     margin: 0rem;
     border: solid 2px black;
+    width: 100%;
 }
 
 
  .footer{
     text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
  }
  .parrafo{
     text-align: center;
@@ -72,7 +85,7 @@
  /*GALERIA*/
 .contenedor{
     background-color: black;
-   
+
 }
 
 .nav__galeria  ul li a{
@@ -84,6 +97,10 @@
     text-transform: uppercase;
     
 } 
+.nav__galeria ul li a:hover{
+    transform: skew(55deg, 5deg);
+    border: solid 2px white;
+}
 .nav__galeria ul{
     display: flex;
     justify-content: center;
@@ -93,14 +110,28 @@
     justify-content: space-evenly;
     margin-top: 30px;
 }
-.footer__galeria{
-    color: white;
-    text-align: center;
-    margin: 400px;
-    display: flex;
-    justify-content: center;
-    
+.main_galeria{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "thebeatles"
+                         "foofigthers"
+                         "queen";
 }
+.img_thebeatles{
+    grid-area: thebeatles;
+}
+.img_foofigthers{
+    grid-area: foofigthers;
+}
+.img_queen{
+    grid-area: queen;
+    width: 100%;
+    background-position: center;
+}
+
+
+
 
 /*ARTISTAS*/
 .contenedor__body{
@@ -114,6 +145,10 @@
     list-style: none;
  
 }
+.nav__artistas ul li a:hover{
+    transform: skew(55deg, 5deg);
+    border: solid 2px white;
+}
 .nav__artistas ul{
     display: flex;
     justify-content: center;
@@ -123,15 +158,12 @@
     margin-top: 30px;
 }
 
-
-.footer__artistas{
+.aside__artistas{
     color: white;
-    text-align: center;
-    margin: 400px;
-    display: flex;
-    justify-content: center;
-
+   
+   
 }
+
 /*MUSICA*/
 .contenedor__musica{
     background-image: url("../img/vinilorock.jpeg");
@@ -143,6 +175,10 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+.nav__musica ul li a:hover{
+    transform: skew(55deg, 5deg);
+    border: solid 2px white;
+}
 .nav__musica ul{
     
     list-style: none;
@@ -152,13 +188,7 @@
     justify-content: space-evenly;
     margin-top: 30px;
 }
-.footer__musica{
-    color: white;
-    text-align: center;
-    margin: 400px;
-    display: flex;
-    justify-content: center;
-}
+
 /*SHOWS*/
 .contenedor__shows{
     background-image: url("../img/redhotchili.jpeg");
@@ -168,6 +198,10 @@
     color: white;
     font-size: 17px;
     text-decoration: none;
+}
+.nav__shows ul li a:hover{
+    transform: skew(55deg, 5deg);
+    border: solid 2px white;
 }
 .nav__shows ul{
     display: flex;
@@ -179,14 +213,7 @@
     margin-top: 30px;
   
 }
-.footer__shows h1{
-    color: white;
-    margin: 150px;
-    display: flex;
-    justify-content: center;
 
-    
-}
 /*FORMULARIO*/
 .formulario{
     font-family:'Montserrat', sans-serif;
