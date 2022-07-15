@@ -156,12 +156,22 @@
     text-transform: uppercase;
     justify-content: space-evenly;
     margin-top: 30px;
+   
 }
-
+.nav__artistas ul li{
+    text-decoration: none;
+    list-style: none;
+}
 .aside__artistas{
     color: white;
    
    
+}
+.texto1{
+    font-size: 30px;
+}
+.texto2{
+    font-size: 30px;
 }
 
 /*MUSICA*/
