@@ -118,6 +118,11 @@
                          "foofigthers"
                          "queen";
 }
+@media (min-width: 375px) and (max-width: 667px){
+    .nav__galeria ul li{
+        background-color: aquamarine;
+    }
+}
 .img_thebeatles{
     grid-area: thebeatles;
 }
@@ -162,6 +167,11 @@
     text-decoration: none;
     list-style: none;
 }
+@media (min-width: 375px) and (max-width: 667px){
+    .nav__artistas ul li{
+        background-color: aquamarine;
+    }
+}
 .aside__artistas{
     color: white;
    
@@ -198,7 +208,11 @@
     justify-content: space-evenly;
     margin-top: 30px;
 }
-
+@media (min-width: 375px) and (max-width: 667px){
+    .nav__musica ul li{
+        background-color: aquamarine;
+    }
+}
 /*SHOWS*/
 .contenedor__shows{
     background-image: url("../img/redhotchili.jpeg");
@@ -223,7 +237,11 @@
     margin-top: 30px;
   
 }
-
+@media (min-width: 375px) and (max-width: 667px){
+    .nav__shows ul li{
+        background-color: aquamarine;
+    }
+}
 /*FORMULARIO*/
 .formulario{
     font-family:'Montserrat', sans-serif;
