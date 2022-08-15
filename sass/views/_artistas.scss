@@ -1,0 +1,46 @@
+.contenedor__body {
+    background-color: black;
+  }
+  
+  .nav__artistas ul li a {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .nav__artistas ul li a:hover {
+    transform: skew(55deg, 5deg);
+    border: solid 2px white;
+  }
+  
+  .nav__artistas ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  
+  .nav__artistas ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  @media (min-width: 375px) and (max-width: 667px) {
+    .nav__artistas ul li {
+      background-color: aquamarine;
+    }
+  }
+  .titleartistas {
+    text-align: start;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  

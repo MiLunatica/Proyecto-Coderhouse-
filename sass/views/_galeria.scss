@@ -1,0 +1,43 @@
+.contenedor {
+    background-color: black;
+  }
+  
+  .nav__galeria ul li a {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+  }
+  
+  .nav__galeria ul li a:hover {
+    transform: skew(55deg, 5deg);
+    border: solid 2px white;
+  }
+  
+  .nav__galeria ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  
+  @media (min-width: 375px) and (max-width: 667px) {
+    .nav__galeria ul li {
+      background-color: aquamarine;
+    }
+  }
+  .titlegaleria {
+    text-align: start;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  

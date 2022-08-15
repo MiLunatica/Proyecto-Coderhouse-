@@ -1,96 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artistas</title>
-      <!-- CSS Bootstrap only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-     <!--CSS propio-->
-    <link rel="stylesheet" href="../CSS/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet href=" https: //fonts.googleapis.com/css2? family=EB+Garamond & family=Montserrat:wght@200 &
+    family=Oswald:wght@200;500 & display=swap">
+
+  <title>Artistas</title>
+  <!-- CSS Bootstrap only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!--CSS propio-->
+  <link rel="stylesheet" href="../CSS/style.css">
 </head>
+
 <body class="contenedor__body">
-    <header>
-        <nav class="navbar bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand">Artistas</a>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="Busca a tu artista favorito" placeholder="Busca a tu artista favorito" aria-label="Buscar">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-        <nav class="nav__artistas">
-            <ul>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./artistas.html">Artistas</a>
-                </li>
-                <li>
-                    <a href="./galeria.html">Galeria</a>
-                </li>
-                <li>
-                    <a href="./shows.html">Shows</a>
-                </li>
-            </ul>
-        </nav>
-        <main>
-            <!--<section class="container-fluid">
-            <<div class="row"> <!--Declaro filas-->
-            
-           <!-- <div class="col-lg-3 col-md-6 col-xs-12 background"> <!--Declaro columnas-->
-            <!--Column 1
-            </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 background-dos">
-           Column 2
-            </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 background">
-           Column 3
-            </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 background-dos" >
-           Column 4
-            </div>-->
+  <header>
+    <h1 class="titleartistas">Rock and Love</h1>
+    <nav class="nav__artistas">
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="./artistas.html">Artistas</a>
+        </li>
+        <li>
+          <a href="./galeria.html">Galeria</a>
+        </li>
+        <li>
+          <a href="./shows.html">Shows</a>
+        </li>
+        <li>
+          <a href="../pages/musica.html">Musica</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      
+      <div class="card mb-3">
+        <img src="../img/foofightersartistas.jpg" class="card-img-top" alt="foofightersartistas">
+        <div class="card-body">
+          <h5 class="card-title">Foo Fighters</h5>
+          <p class="card-text">Foo Fighters es una banda de rock estadounidense formada en la ciudad de Seattle en 1994
+            por Dave Grohl, exbaterista de Nirvana y Scream.
+
+            El grupo debe su nombre a los ovnis y los diversos fenómenos aéreos que fueron reportados por los pilotos de
+            los aviones aliados en la Segunda Guerra Mundial, que se conocen colectivamente como foo fighter. Antes del
+            lanzamiento de su álbum debut en 1995, Grohl, como único miembro oficial, reclutó al bajista Nate Mendel y
+            el baterista William Goldsmith, ambos anteriormente miembros de Sunny Day Real Estate, así como su compañero
+            en las giras de Nirvana, Pat Smear como guitarrista para completar la alineación.</p>
+
         </div>
-            <div class="row">
-            <div class="col-lg-6 col-md-12">
-                <img class="img-fluid" src="../img/foofightersartistas.jpg">
+      </div>
+      <div class="card mb-3">
+        <img src="../img/queen-artistas.jpg" class="card-img-top" alt="queen-artistas">
+        <div class="card-body">
+          <h5 class="card-title">Queen</h5>
+          <p class="card-text">Queen es una banda británica de rock formada en 1970 en Londres por el cantante y
+            pianista Freddie Mercury, el guitarrista Brian May y el baterista Roger Taylor. El bajista John Deacon
+            llegaría un año después al grupo para completar la formación clásica. Tras el deceso de Mercury en 1991, y
+            el retiro de Deacon en 1997, los integrantes restantes, Brian May y Roger Taylor, continúan trabajando bajo
+            el nombre Queen o Queen +, por lo que la banda aún se considera activa.</p>
 
-            </div>
-            <div class="col-lg-6 col-md-12 texto1">
-                <p>Foo Fighters</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 texto2">
-                        <p>Queen</p>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                        <img class="img-fluid" src="../img/queen-artistas.jpg">
-        
-                    </div>
-                    <div class="row texto3">
-                        <div class="col-lg-6 col-md-12">
-                            <img class="img-fluid" src="../img/thebeatlesartistas.jpg">
-            
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <p>The Beatles</p>
-                            </div>
-            </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="../img/Beatlesartistas.jpg" class="card-img-top" alt="thebeatlesartistas">
+        <div class="card-body">
+          <h5 class="card-title">The Beatles</h5>
+          <p class="card-text">The Beatles, también conocida en el mundo hispano como los Beatles, fue una banda de rock
+            británica formada en Liverpool durante los años 1960, estando integrada desde 1962 a su separación en 1970
+            por John Lennon, Paul McCartney, George Harrison y Ringo Starr. Es ampliamente considerada como la banda más
+            influyente de todos los tiempos, siendo parte fundamental en el desarrollo del movimiento contracultural de
+            la década de 1960 y el reconocimiento de la música popular como forma de arte.</p>
 
-            </section>
-        </main>
-    </header>
-    
-   
-    <footer class="footer">
-        <h2 class="footer_titulo">Todos los derechos reservados | Milagros Rodczyn </h2>
-    </footer>
-    
-        <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    
+        </div>
+      </div>
+    </main>
+  </header>
+
+
+  <footer class="footer">
+    <h2 class="footer_titulo">Todos los derechos reservados | Milagros Rodczyn </h2>
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>

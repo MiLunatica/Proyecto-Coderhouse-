@@ -1,0 +1,55 @@
+
+  
+  .header {
+    color: black;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 50px;
+    display: flex;
+  }
+  
+  .title {
+    text-align: start;
+    text-transform: uppercase;
+    color: black;
+    font-size: 50px;
+  }
+  
+  .title:hover {
+    border: solid 2px black;
+  }
+  
+  .header__nav ul {
+    padding: 2rem;
+    text-align: end;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .header__nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: aquamarine;
+    border-radius: 0px;
+    margin: 15px;
+  }
+  
+  .header__nav a:hover {
+    transform: skew(55deg, 5deg);
+    border: solid 2px black;
+  }
+  
+  .img {
+    margin: 0rem;
+    border: solid 2px black;
+    width: 100%;
+  }
+  .parrafo {
+    text-align: center;
+  }

@@ -1,11 +1,257 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+.body-menu {
+  background-color: #7fffd4;
+  color: aquamarine;
+  font-family: "Montserrat", sans-serif;
+}
 
-.body {
-  font-family: 'Montserrat', sans-serif;
-  background: aquamarine; }
+.card-title {
+  color: black;
+  font-family: "Montserrat";
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenedor__body {
+  background-color: black;
+}
+
+.nav__artistas ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav__artistas ul li a:hover {
+  transform: skew(55deg, 5deg);
+  border: solid 2px white;
+}
+
+.nav__artistas ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.nav__artistas ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .nav__artistas ul li {
+    background-color: aquamarine;
+  }
+}
+.titleartistas {
+  text-align: start;
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenedor {
+  background-color: black;
+}
+
+.nav__galeria ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav__galeria ul li a:hover {
+  transform: skew(55deg, 5deg);
+  border: solid 2px white;
+}
+
+.nav__galeria ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-transform: uppercase;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .nav__galeria ul li {
+    background-color: aquamarine;
+  }
+}
+.titlegaleria {
+  text-align: start;
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenedor__musica {
+  background-image: url("../img/vinilorock.jpeg");
+}
+
+.nav__musica ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__musica ul li a:hover {
+  transform: skew(55deg, 5deg);
+  border: solid 2px white;
+}
+
+.nav__musica ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .nav__musica ul li {
+    background-color: aquamarine;
+  }
+}
+.titlemusica {
+  text-align: start;
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.list-group {
+  margin: 1%;
+}
+
+.contenedor__shows {
+  background-image: url("../img/redhotchili.jpeg");
+}
+
+.nav__shows ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.nav__shows ul li a:hover {
+  transform: skew(55deg, 5deg);
+  border: solid 2px white;
+}
+
+.nav__shows ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-transform: uppercase;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .nav__shows ul li {
+    background-color: aquamarine;
+  }
+}
+.titleshows {
+  text-align: start;
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formulario {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 17px;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/*FORMULARIO SHOWS*/
+.formulario__leg {
+  margin: 15px;
+}
+
+#nombre {
+  display: flex;
+  justify-content: center;
+}
+
+.placeholder__nombre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mail {
+  display: flex;
+  justify-content: center;
+}
+
+.placeholder__mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+}
+
+.placeholder__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.env__can {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.footer {
+  text-align: center;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
 
 .header {
   color: black;
@@ -15,16 +261,19 @@
   align-items: center;
   height: 100px;
   padding: 50px;
-  display: flex; }
+  display: flex;
+}
 
 .title {
   text-align: start;
   text-transform: uppercase;
   color: black;
-  font-size: 50px; }
+  font-size: 50px;
+}
 
 .title:hover {
-  border: solid 2px black; }
+  border: solid 2px black;
+}
 
 .header__nav ul {
   padding: 2rem;
@@ -32,7 +281,8 @@
   list-style: none;
   color: black;
   text-decoration: none;
-  display: flex; }
+  display: flex;
+}
 
 .header__nav a {
   text-decoration: none;
@@ -40,245 +290,47 @@
   background-color: black;
   color: aquamarine;
   border-radius: 0px;
-  margin: 15px; }
+  margin: 15px;
+}
 
 .header__nav a:hover {
   transform: skew(55deg, 5deg);
-  border: solid 2px black; }
+  border: solid 2px black;
+}
 
 .img {
   margin: 0rem;
   border: solid 2px black;
-  width: 100%; }
-
-.footer {
-  text-align: center;
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: aquamarine; }
+  width: 100%;
+}
 
 .parrafo {
-  text-align: center; }
+  text-align: center;
+}
 
-/*GALERIA*/
-.contenedor {
-  background-color: black; }
-
-.nav__galeria ul li a {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 17px;
-  text-decoration: none;
-  list-style: none;
-  text-transform: uppercase; }
-
-.nav__galeria ul li a:hover {
-  transform: skew(55deg, 5deg);
-  border: solid 2px white; }
-
-.nav__galeria ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  text-transform: uppercase;
-  justify-content: space-evenly;
-  margin-top: 30px; }
-
-.main_galeria {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "thebeatles" "foofigthers" "queen"; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 @media (min-width: 375px) and (max-width: 667px) {
   .nav__galeria ul li {
-    background-color: aquamarine; } }
-
-/*.img_thebeatles{
-    grid-area: thebeatles;
-    width: 100%;
-   border: 10px solid white;
-}*/
-/*.img_foofigthers{
-    grid-area: foofigthers;
-    border: 10px solid white;
-}*/
-/*.img_queen{
-    grid-area: queen;
-    width: 100%;
-    background-position: center;
-    border: 10px solid white;
-} */
-/*ARTISTAS*/
-.contenedor__body {
-  background-color: black; }
-
-.nav__artistas ul li a {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 17px;
-  text-decoration: none;
-  list-style: none; }
-
-.nav__artistas ul li a:hover {
-  transform: skew(55deg, 5deg);
-  border: solid 2px white; }
-
-.nav__artistas ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  justify-content: space-evenly;
-  margin-top: 30px; }
-
-.nav__artistas ul li {
-  text-decoration: none;
-  list-style: none; }
-
+    background-color: aquamarine;
+  }
+}
 @media (min-width: 375px) and (max-width: 667px) {
   .nav__artistas ul li {
-    background-color: aquamarine; } }
-
-.aside__artistas {
-  color: white; }
-
-.texto1 {
-  font-size: 30px; }
-
-.texto2 {
-  font-size: 30px; }
-
-.texto3 {
-  font-size: 30px; }
-
-/*MUSICA*/
-.contenedor__musica {
-  background-image: url("../img/vinilorock.jpeg"); }
-
-.nav__musica ul li a {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 17px;
-  text-decoration: none;
-  text-transform: uppercase; }
-
-.nav__musica ul li a:hover {
-  transform: skew(55deg, 5deg);
-  border: solid 2px white; }
-
-.nav__musica ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 30px; }
-
+    background-color: aquamarine;
+  }
+}
 @media (min-width: 375px) and (max-width: 667px) {
   .nav__musica ul li {
-    background-color: aquamarine; } }
-
-/*SHOWS*/
-.contenedor__shows {
-  background-image: url("../img/redhotchili.jpeg"); }
-
-.nav__shows ul li a {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 17px;
-  text-decoration: none; }
-
-.nav__shows ul li a:hover {
-  transform: skew(55deg, 5deg);
-  border: solid 2px white; }
-
-.nav__shows ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  text-transform: uppercase;
-  justify-content: space-evenly;
-  margin-top: 30px; }
-
+    background-color: aquamarine;
+  }
+}
 @media (min-width: 375px) and (max-width: 667px) {
   .nav__shows ul li {
-    background-color: aquamarine; } }
-
-/*FORMULARIO*/
-.formulario {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 17px;
-  margin: 100px;
-  display: flex;
-  justify-content: center; }
-
-.formulario__leg {
-  margin: 15px; }
-
-#nombre {
-  display: flex;
-  justify-content: center; }
-
-.placeholder__nombre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-
-#mail {
-  display: flex;
-  justify-content: center; }
-
-.placeholder__mail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-
-#text {
-  display: flex;
-  justify-content: center; }
-
-.placeholder__text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-
-.env__can {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around; }
-
-.img_foofigthers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; }
-
-.img_foofigthers {
-  border: 10px solid white; }
-
-.img_queen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; }
-
-.img_queen {
-  border: 10px solid white; }
-
-.img_thebeatles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; }
-
-.img_thebeatles {
-  border: 10px solid white; }
+    background-color: aquamarine;
+  }
+}/*# sourceMappingURL=style.css.map */

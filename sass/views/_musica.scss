@@ -1,0 +1,44 @@
+.contenedor__musica {
+    background-image: url("../img/vinilorock.jpeg");
+  }
+  
+  .nav__musica ul li a {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .nav__musica ul li a:hover {
+    transform: skew(55deg, 5deg);
+    border: solid 2px white;
+  }
+  
+  .nav__musica ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  
+  @media (min-width: 375px) and (max-width: 667px) {
+    .nav__musica ul li {
+      background-color: aquamarine;
+    }
+  }
+  .titlemusica {
+    text-align: start;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .list-group {
+    margin: 1%;
+  }
